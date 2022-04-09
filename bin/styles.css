@@ -1,0 +1,26 @@
+#anchorPane{
+	
+	-fx-background-color:black;
+	
+}
+#BtPiedra{
+	-fx-background-image:url("piedra90.jpg");
+	-fx-border-radius:20px;
+	
+}
+#BtPapel{
+	-fx-background-image:url("papel90.jpg");
+	-fx-border-radius:20px;
+	
+}
+#BtTijera{
+	-fx-background-image:url("tijera90x61.jpg");
+	
+}
+#btjugar{
+	-fx-background-color:green;
+}
+#letras{
+	-fx-background-color:red;
+	
+}
