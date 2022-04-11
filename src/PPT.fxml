@@ -6,17 +6,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" 
-prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <Button fx:id="BtPiedra" layoutX="64.0" layoutY="60.0" mnemonicParsing="false" onAction="#botonPiedra" prefHeight="61.0" prefWidth="90.0" stylesheets="@styles.css" text="BotonPiedra" />
       <Button fx:id="BtPapel" layoutX="64.0" layoutY="188.0" mnemonicParsing="false" onAction="#botonPapel" prefHeight="61.0" prefWidth="90.0" text="BotonPapel" />
       <Button fx:id="BtTijera" layoutX="64.0" layoutY="320.0" mnemonicParsing="false" onAction="#botonTijera" prefHeight="61.0" prefWidth="90.0" text="Tijera" />
-      <Label fx:id="letras" alignment="CENTER" layoutX="197.0" layoutY="180.0" prefHeight="84.0" prefWidth="202.0" text="PIEDRA, PAPEL O TIJERA!!" textAlignment="RIGHT" textFill="#efe8e8">
+      <Label fx:id="letras" alignment="CENTER" layoutX="197.0" layoutY="180.0" prefHeight="84.0" prefWidth="202.0" style="-fx-border-radius: 50%;" styleClass="letras" text="PIEDRA, PAPEL O TIJERA!!" textAlignment="RIGHT" textFill="#efe8e8">
          <font>
             <Font name="Arial Bold" size="14.0" />
          </font></Label>
-      <Button fx:id="btjugar" layoutX="264.0" layoutY="308.0" mnemonicParsing="false" onAction="#botonJugar" prefHeight="36.0" prefWidth="77.0" text="JUGAR">
+      <Button fx:id="btjugar" layoutX="264.0" layoutY="308.0" mnemonicParsing="false" onAction="#botonJugar" prefHeight="36.0" prefWidth="77.0" stylesheets="@styles.css" text="JUGAR">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
