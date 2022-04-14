@@ -46,7 +46,6 @@ public class Controller implements Initializable {
 			letras.setText("Piedra - Tijera, GANASTE!");
 			setImage(tijera);
 		}
-
 	}
 
 	public void botonPapel(ActionEvent event) {
