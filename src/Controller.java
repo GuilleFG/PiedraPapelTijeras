@@ -29,7 +29,7 @@ public class Controller implements Initializable {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-	}
+	} 
 	
 	public void botonPiedra(ActionEvent event) {
 		
@@ -60,11 +60,12 @@ public class Controller implements Initializable {
 			letras.setText("Papel - Papel: Empaste!");
 			setImage(papel);
 			break;
+			
 		case 3:
 			letras.setText("Papel- Tijera: Perdiste!");
 			setImage(tijera);
 			break;
-		}
+		} 
 	}
 
 	public void botonTijera(ActionEvent event) {
@@ -92,6 +93,5 @@ public class Controller implements Initializable {
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
-
 	}
 }
